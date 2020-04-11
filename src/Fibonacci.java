@@ -20,6 +20,7 @@ public class Fibonacci {
             n1 = next;
         }
         System.out.println(n1);
+
     }
 
 }
