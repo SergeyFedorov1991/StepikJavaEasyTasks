@@ -1,5 +1,7 @@
+package Examples;
+
 /**
- * Задача FizzBuzz.
+ * Задача Examples.FizzBuzz.
  *
  * Необходимо реализовать функцию:
  *
@@ -9,7 +11,7 @@
  *
  *     нужно вывести в консоль слово Buzz, если число кратно пяти;
  *
- *     нужно вывести в консоль слово FizzBuzz, если число кратно трем и пяти одновременно;
+ *     нужно вывести в консоль слово Examples.FizzBuzz, если число кратно трем и пяти одновременно;
  *
  *     если число не кратно ни трем, ни пяти, вывести это число.*/
 public class FizzBuzz {
@@ -22,7 +24,7 @@ public class FizzBuzz {
     public static void fizzBuzz(int input){
 
         if ((input % 3 == 0) & (input % 5 == 0)){
-            System.out.println(input + " = FizzBuzz");
+            System.out.println(input + " = Examples.FizzBuzz");
 
         }else if (input % 3 == 0) {
             System.out.println(input + " = Fizz Результат: " + input / 3);

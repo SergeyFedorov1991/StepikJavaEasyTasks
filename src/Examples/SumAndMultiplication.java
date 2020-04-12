@@ -1,3 +1,5 @@
+package Examples;
+
 /**Найти сумму и произведение цифр, введенного натурального числа
  * */
 public class SumAndMultiplication {
