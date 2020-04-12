@@ -1,5 +1,7 @@
-/**https://habr.com/ru/post/255761/
+/**По примеру статьи на хабре
+ * https://habr.com/ru/post/255761/
  * */
+package Examples;
 import java.math.BigInteger;
 
 public class Factorial {

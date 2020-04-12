@@ -1,3 +1,5 @@
+package Examples;
+
 public class Palindrom {
     public static void main(String[] args) {
         checkPalindrom("Madam i’m Adam");
