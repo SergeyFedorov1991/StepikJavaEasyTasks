@@ -38,4 +38,7 @@ public class Robot {
         if (dir == RoboGame.Direction.LEFT)  {x--;}
         if (dir == RoboGame.Direction.RIGHT) {x++;}
     }
+
+
+
 }

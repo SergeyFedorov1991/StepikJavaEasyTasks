@@ -11,6 +11,7 @@ public class LambdaApp {
 
         int result = operation.calculate(10, 20);
         System.out.println(result); //30
+
     }
 }
 interface Calculate {
