@@ -5,11 +5,14 @@
 
 package RoboGame;
 
+
 public class RoboGame {
     public static void main(String[] args) {
         Robot robot = new Robot(0,0, Direction.DOWN);
-        moveRobot(robot, -10, 20);
-        roboVoise();
+
+
+
+        moveRobotTo(robot, -10, 20);
 
     }
 
@@ -24,7 +27,7 @@ public class RoboGame {
         System.out.println("kill all human!");
     }
 
-    public static void moveRobot(Robot robot, int toX, int toY) {
+    public static void moveRobotTo(Robot robot, int toX, int toY) {
 
         if (robot.getY() < toY) {
             while (robot.getDirection() != Direction.UP) robot.turnRight();
@@ -42,6 +45,17 @@ public class RoboGame {
             while (robot.getDirection() != Direction.LEFT) robot.turnRight();
             while (robot.getX() > toX) robot.stepForward();
         }
+        roboVoise();
+    }
+
+
+    public static void moveRobot(RobotConnectionManager robotConnectionManager, int toX, int toY) {
+      //  OutputStream stream = openOutputStream();
+
+
+
 
     }
+
+
 }
